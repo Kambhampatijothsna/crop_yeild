@@ -96,7 +96,7 @@ The best-performing model was selected based on the highest **R² Score** and lo
 | Model | MAE | MSE | RMSE | R² Score |
 |------|------|------|------|----------|
 | RF (Random Forest) | 3724.907174 | 9.117071e+07 | 9548.335710 | 0.987323 |
-| BR (Bayesian Ridge) | 3990.251417 | 9.680531e+07 | 9838.968702 | 0.986540 |
+| BR (BaggingRegressor) | 3990.251417 | 9.680531e+07 | 9838.968702 | 0.986540 |
 | KNN | 4611.269096 | 1.080935e+08 | 10396.800375 | 0.984970 |
 | DT (Decision Tree) | 3885.342202 | 1.457706e+08 | 12073.550948 | 0.979732 |
 
